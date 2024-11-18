@@ -1,26 +1,15 @@
-import HelloWorld from "./components/HelloWorld"
+'use client';
+import Header from "./ui/header/components/Header"
+import Contents from "./ui/contents/components/Contents"
+import Footer from "./ui/footer/components/Footer"
+
 
 export default function Home() {
   return (
-    
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <div 
-        className={`
-            my-4 text-center
-            font-bold text-5xl tracking-tight
-            bg-gradient-to-r from-cyan-400 via-green-400 to-pink-400
-            bg-clip-text text-transparent 
-        `}
-      >
-      Next.JSのお勉強をしていた気がするだけで<br/>あんまりしていない。by 1410-3
-    </div>
-    
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        test
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <HelloWorld/>
-      </footer>
-    </div>
+    <>
+      <Header/>
+      <Contents></Contents>
+      <Footer/>
+    </>
   );
 }

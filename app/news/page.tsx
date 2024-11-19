@@ -37,7 +37,7 @@ const News = () => {
             <List.Item>
               <List.Item.Meta
                 avatar={<Avatar src={item.avatar} />}
-                title={<a href={item.link}>{item.title}</a>}
+                title={item.title}
                 description={
                   <div>
                     <Paragraph style={{ margin: 0 }}>{item.description}</Paragraph>

@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Layout, Typography, Row, Col, Button } from "antd";
+import { Layout, Typography, Row, Col } from "antd";
 import { MehOutlined } from "@ant-design/icons";
 import Header from '../ui/header/components/Header'
 

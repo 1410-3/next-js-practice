@@ -2,10 +2,12 @@
 import React from "react";
 import { Card, Row, Col, Table} from "antd";
 import {dataSource, columns} from './types'
+import Header from '../ui/header/components/Header'
 
 const Company: React.FC = () => {
   return (
     <>
+      <Header/>
       <div style={{ padding: "40px 20px", backgroundColor: "#f9f9f9" }}>
         <Row justify="center">
           <Col xs={24} sm={18} md={16} lg={12}>

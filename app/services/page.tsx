@@ -2,20 +2,20 @@
 import React from "react";
 import { Layout,  Row, Col, Card } from "antd";
 import { EnvironmentOutlined, TeamOutlined, SmileOutlined } from "@ant-design/icons";
-
-const { Content } = Layout;
+import Header from '../ui/header/components/Header'
 
 const Services: React.FC = () => {
+  const { Content } = Layout;
   return (
     <>
-
+      <Header/>
       <Content style={{ padding: "50px", marginTop: 64 }}>
       <div style={{ textAlign: "center", marginBottom: 50 }}>
         <strong>事業内容</strong>
         <br />
         <br />
-        <h1>「地域をきれいに、未来をきれいに」</h1>
-        <p>地域清掃では、ぼっちではありますが確実に目撃されています。あの子はゴミを拾う子と。</p>
+        <h1>「地域をきれいに！ブロークンウィンドウ現象を防ぐぞ！」</h1>
+        <p>地域清掃では、ぼっちではありますが確実に地域住民に目撃されています。あの子はゴミを拾う子と。</p>
       </div>
 
       <Row gutter={[16, 16]} justify="center">

@@ -1,7 +1,8 @@
 
 import React from 'react';
 import {Layout, theme } from 'antd';
-
+import FallingLeaves from '../../../css/FallingLeaves';
+ 
 const { Content } = Layout;
 
 const App: React.FC = () => {
@@ -26,6 +27,7 @@ const App: React.FC = () => {
                   bg-clip-text text-transparent 
               `}
             >
+            <FallingLeaves />
             Next.JSのお勉強をしていた気がするんですが、<br />
             気のせいだったので慌ててなにかつくっている by 1410-3
             </div>

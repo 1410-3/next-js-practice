@@ -3,7 +3,7 @@ import React from "react";
 import { Card, Row, Col, Table} from "antd";
 import {dataSource, columns} from './types'
 
-const AboutUs: React.FC = () => {
+const Company: React.FC = () => {
   return (
     <>
       <div style={{ padding: "40px 20px", backgroundColor: "#f9f9f9" }}>
@@ -83,4 +83,4 @@ const AboutUs: React.FC = () => {
   );
 };
 
-export default AboutUs;
+export default Company;
